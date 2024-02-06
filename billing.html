@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Billing Portal</title>
+</head>
+<body style="background-color:honeydew;"> <br>
+<header> 
+<img src="logo.png" style="width: 500px; height: 100px; display: block; margin-left: auto; margin-right: auto; display: block;">
+</header>
+
+<h1 style="text-align: center;">Billing Portal</h1>
+<h2 style="text-align: center;">Customer Billing Details</h2>
+
+<div> 
+    <fieldset> <br>
+        <form action="billing_insert.php" method="post">
+        Patient Name:<input type="text" name="name" style="width: 250px; margin-left: 50px;"> <br> <br>
+        Doctor Name:<input type="text" name="dname" style="width: 250px; margin-left: 50px;"> <br> <br>
+        Contact Number:<input type="text" name="contact" style="width: 250px; margin-left:30px;"> <br> <br>
+        Payment Method:
+            <input type="radio" name="payment" value="Credit Card" style="margin-left: 25px;"> Credit Card
+            <input type="radio" name="payment" value="Cash"> Cash
+        <br> <br>
+        Bill Amount:<input type="text" name="bill_amount" style="width: 250px; margin-left:55px;"> <br> <br>
+        Amount Paid:<input type="text" name="amount_paid" style="width: 250px; margin-left:50px;"> <br> <br>
+
+        Insurance Provider:
+            <input type="radio" name="insurance" value="Jubilee" style="margin-left: 25px;"> Jubilee <br>
+            <input type="radio" name="insurance" value="EFU Insurance" style="margin-left: 155px;"> EFU Insurance <br>
+            <input type="radio" name="insurance" value="Adamjee Insurance" style="margin-left: 155px;"> Adamjee Insurance <br>
+            <input type="radio" name="insurance" value="Alfalah Insurance" style="margin-left: 155px;"> Alfalah Insurance <br>
+            <input type="radio" name="insurance" value="Statelife Insurance" style="margin-left: 155px;"> Sate Life Insurance <br>
+            <input type="radio" name="insurance" value="None" style="margin-left: 155px;"> NONE
+
+        <br> <br>
+        <input type="submit" style="margin-left: 50px; width: 250px;" value="Save Billing Details">
+        </form>
+</fieldset>
+</div> <br> <br>
+
+</body>
+</html>
