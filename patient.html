@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Form</title>
+</head>
+<body> <br>
+<header> 
+<img src="logo.png" style="width: 500px; height: 100px; display: block; margin-left: auto; margin-right: auto; display: block;">
+</header>
+
+<h1 style="text-align: center;">Book an appointment with a Trusted Doctor Today!</h1>
+
+<div> 
+    <fieldset> <br>
+        <form action="patient_insert.php" method="post">
+        Patient Name:<input type="text" name="name" style="width: 250px; margin-left: 50px;"> <br> <br>
+        Email:<input type="text" name="email" style="width: 250px; margin-left: 99px;"><br> <br>
+        Contact Number:<input type="text" name="contact" style="width: 250px; margin-left:30px;"> <br> <br>
+        Appointment Time:
+            <input type="radio" name="time" value="Morning" style="margin-left: 25px;"> Morning
+            <input type="radio" name="time" value="Evening"> Evening
+            <input type="radio" name="time" value="Night"> Night
+        <br> <br>
+        Symptoms: <textarea style="width: 250px; height: 50px; margin-left: 65px;" name="symptoms"></textarea> <br> <br>
+        <input type="submit" style="margin-left: 50px; width: 250px;" value="Book Appointment">
+        </form>
+</fieldset>
+</div> <br> <br>
+
+
+</body>
+</html>
