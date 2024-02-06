@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doctor's Portal</title>
+</head>
+<body style="background-color:ivory;"> <br>
+<header>
+<img src="logo.png" style="width: 500px; height: 100px; display: block; margin-left: auto; margin-right: auto; display: block;">
+</header>
+
+<h1 style="text-align: center;">Doctor's Portal</h1>
+
+<h2 style="text-align: center;">Insert Patient Record</h2>
+
+<div>
+    <fieldset> <br>
+        <form action="doctor_insert.php" method="post">
+        Patient Name:<input type="text" name="name" style="width: 250px; margin-left: 50px;"> <br> <br>
+        Contact Number:<input type="text" name="contact" style="width: 250px; margin-left:30px;"> <br> <br>
+        Symptoms: <textarea style="width: 250px; height: 50px; margin-left: 65px;" name="symptoms"></textarea> <br> <br>
+        Diagnosis: <textarea style="width: 250px; height: 50px; margin-left: 70px;" name="diagnosis"></textarea> <br> <br>
+
+        <input type="submit" style="margin-left: 50px; width: 250px;" value="Save Patient Data">
+        </form>
+</fieldset>
+</div> <br> <br>
+
+</body>
+</html>
